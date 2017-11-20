@@ -21,7 +21,7 @@ public class TestController {
 
     @RequestMapping(value="testmain")
     public String testmain(HttpServletRequest request, HttpServletResponse response){
-        System.out.println("进来了");
+        System.out.println("进来了222");
         return "taobaoget/test/test";
     }
 
